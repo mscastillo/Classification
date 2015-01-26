@@ -3,7 +3,8 @@ Classification
 
 This repository includes scripts to perform different classification analyses.
 
-# `tSNE_SVM_supervised.m`
+
+# `tSNE_SVM_supervised.m` [:octocat:](https://github.com/mscastillo/Classification/blob/master/tSNE_SVM_supervised.m)
 
 This *MATLAB* script takes the next four variables:
 
@@ -20,7 +21,8 @@ and provides the optimum line separating two subpopulations from the whole datas
 
 The training data set is matually picked by hand. The Optimum surface is computed them using a linear kerner. See documentation to use an alternative one.
 
-# `tSNE_SVM_bootstrapping.m`
+
+# `tSNE_SVM_bootstrapping.m` [:octocat:](https://github.com/mscastillo/Classification/blob/master/tSNE_SVM_bootstrapping.m)
 
 This *MATLAB* script takes the next four variables:
 
