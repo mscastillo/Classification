@@ -37,11 +37,11 @@ whos('tsne1','tsne2','classes','names')
 
 and computes the optimum surface separating two subpopulations from the whole dataset using SVM coupled with bootstrapping.
 
-Instead of choose manually the trainning dataset, this approach randomly pick the 60% of two given subpopulations and computes the corresponding boundry using a quadratic kernel. This is repeated for a hundred times and all the surfaces are ensembled at the end using a least squared ellipse fit.
+Instead of choose manually the trainning dataset, this approach randomly pick the 60% of two given subpopulations and computes the corresponding boundry using a quadratic kernel. This whole process is repeated one hundred times and all the surfaces are ensembled at the end using a least squared ellipse fit.
 
 This scripts depends on the next two functions:
 
 * *fitellipse*
 * *plotellipse*
 
-that I have downloaded from [MATLAB Central](http://www.mathworks.com/matlabcentral/fileexchange/15125-fitellipse-m).
+from [MATLAB Central](http://www.mathworks.com/matlabcentral/fileexchange/15125-fitellipse-m).
