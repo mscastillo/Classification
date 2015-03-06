@@ -45,3 +45,10 @@ This scripts depends on the next two functions:
 * *plotellipse*
 
 from [MATLAB Central](http://www.mathworks.com/matlabcentral/fileexchange/15125-fitellipse-m).
+
+
+
+# `GMM_clustering` [:octocat:](https://github.com/mscastillo/Analyses/tree/master/GMM_clustering)
+
+![Clustering using GMM](https://raw.githubusercontent.com/mscastillo/FSE/master/Examples/gmm_clustering.jpg)
+
