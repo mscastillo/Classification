@@ -8,7 +8,7 @@ This repository includes different scripts to perform clustering and classificat
 
 Suite of MATLAB scripts to disect two subpopulation in a 2D data set using Support Vectors Machine (SVM). Despite the name of the variables, the analysis can be applied to the results of the tSNE or any other dimensional reduction analysis.
 
-### Inputs
+## Inputs
 
 1. Import into MATLAB's workspace the next four variables.
 ```matlab
