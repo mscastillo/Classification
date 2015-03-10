@@ -43,5 +43,12 @@ The main script, `gmm_clustering.m`, computes the GMM with different modes using
 2. `K`, the maximum number of modes. This parameter could be an integer or any of the next strings (that we use a multiple of the actusal number of classes in the dataset): `'one'`, `'two'`, `'three'`, ...`'ten'`. Notice that text strings are defined between single quotes. By default is set to `'two'`.
 3. `seed`, the random generator's seed. For repeatability, the randomness is controlled by fixing the seed of the random generator. By default,it set as zero. Use any other value to generate alternative solutions.
 
+### Outputs
+
+The main script will compute the data densite of the dataset and all GMM from 1 to `K` Gaussian components into the mix. The results of each single model will be plotted as a heatmap overlaping the GMM (with white dots indicating the mean of the Gaussian modes) and a 3D plot. In addition, the [Akaike information criterion](http://en.wikipedia.org/wiki/Akaike_information_criterion) is computed and its evolution throgh all the models plotted. A trend lins is plot when a stable level is reached.
+
 ![Clustering using GMM](https://raw.githubusercontent.com/mscastillo/FSE/master/Examples/gmm_clustering.jpg)
+
+After computing all models, the GUI gets open and any of the GMM for a given number of modes can be plotted with the classification results using the chosen GMM.
+
 
