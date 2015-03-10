@@ -21,6 +21,9 @@ Suite of MATLAB scripts to disect two subpopulation in a 2D data set using Suppo
  
  This approach combines SVM with bootstrapping to compute the optimum boundary disecting the two subpopulations. Instead of choose the whole data, the training data set is sampled from the two subpoulations and the optimum surface is computed using a quadratic kernel. This process is repeated one hundred times and all the optimum surfaces are ensemble using a least squared ellipse fit. This scripts depends on `fitellipse.m` and `plotellipse.m` from [MATLAB Central](http://www.mathworks.com/matlabcentral/fileexchange/15125-fitellipse-m).
 
+### Outputs
+
+The script outputs a scatter-plot with the optimum boundare surface diseccting the two subpopulations.
 
 
 # `GMM_clustering` [:octocat:](https://github.com/mscastillo/Analyses/tree/master/GMM_clustering)
