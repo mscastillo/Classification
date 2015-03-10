@@ -19,7 +19,6 @@ whos('tsne1','tsne2','classes','names')
 %  tsne1        805x1          6440    double
 %  tsne2        805x1          6440    double
 ```
-
 2. Additional inputs are required depending on the trainning subset.
 
  [`tSNE_SVM_supervised.m`](https://github.com/mscastillo/Classification/tree/master/SVM_classification)
