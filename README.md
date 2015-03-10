@@ -49,6 +49,6 @@ The main script will compute the data densite of the dataset and all GMM from 1 
 
 ![Clustering using GMM](https://raw.githubusercontent.com/mscastillo/FSE/master/Examples/gmm_clustering.jpg)
 
-After computing all models, the GUI gets open and any of the GMM for a given number of modes can be plotted with the classification results using the chosen GMM.
+After computing all models, the GUI gets open and any of the GMM for a given number of modes can be plotted with the classification results using the chosen GMM. Use the slider to choose the number of modes and compare the clustering results with the original input data set. For a given data set, the clustering results can be reported provinding which data belongs to a specific mode and theirs hyperparameters by doing click on <kdb>Export</kdb>.
 
 
