@@ -26,7 +26,22 @@ Suite of MATLAB scripts to disect two subpopulation in a 2D data set using Suppo
 The script outputs a scatter-plot with the optimum boundare surface diseccting the two subpopulations.
 
 
-# `GMM_clustering` [:octocat:](https://github.com/mscastillo/Analyses/tree/master/GMM_clustering)
+# `GMM_clustering` [:octocat:](https://github.com/mscastillo/Classification/tree/master/GMM_clustering)
+
+This script performs a clustering analysis using Gaussian Mixture Model (GMM).
+
+> [Constrained mixture estimation for analysis and robust
+classification of clinical time series](http://bioinformatics.oxfordjournals.org/content/25/12/i6). Bioinformatics (2009).
+
+### Dependencies
+
+The main script, `gmm_clustering.m`, computes the GMM with different modes using the *gmdistribution* function from MATLAB's statistical toolbox. To interact with the model, the custom user's interface files `gui.fig` and `gui.m` are required.
+
+### Inputs 
+
+1. Data is read from a table in CSV or Excel file with a header, dscribing the variables names, and the next columns: (*i*) an unique identifier with the samples names, (*ii*) the class name to which each sample belongs, (*iii*) the *X* coordinates and (*iv*) the *Y* coordinates. Find an example in [here](https://github.com/mscastillo/Classification/tree/master/Examples)
+2. `K`, the maximum number of modes. This parameter could be an integer or any of the next strings (that we use a multiple of the actusal number of classes in the dataset): `'one'`, `'two'`, `'three'`, ...`'ten'`. Notice that text strings are defined between single quotes. By default is set to `'two'`.
+3. `seed`, the random generator's seed. For repeatability, the randomness is controlled by fixing the seed of the random generator. By default,it set as zero. Use any other value to generate alternative solutions.
 
 ![Clustering using GMM](https://raw.githubusercontent.com/mscastillo/FSE/master/Examples/gmm_clustering.jpg)
 
