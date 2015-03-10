@@ -10,15 +10,7 @@ Suite of MATLAB scripts to disect two subpopulation in a 2D data set using Suppo
 
 ### Inputs
 
-1. Import into MATLAB's workspace the next four variables.
- ```matlab
-whos('tsne1','tsne2','classes','names')
-%  Name         Size          Bytes     Class
-%  classes      805x1         98442      cell
-%  names        805x1        111090      cell
-%  tsne1        805x1          6440    double
-%  tsne2        805x1          6440    double
- ```
+1. Import into MATLAB's workspace the next four variables: `whos('tsne1','tsne2','classes','names')`
 2. Additional inputs are required depending on the trainning subset.
 
  [`tSNE_SVM_supervised.m`](https://github.com/mscastillo/Classification/tree/master/SVM_classification)
