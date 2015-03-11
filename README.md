@@ -33,6 +33,8 @@ This script performs a clustering analysis using Gaussian Mixture Model (GMM).
 > [Constrained mixture estimation for analysis and robust
 classification of clinical time series](http://bioinformatics.oxfordjournals.org/content/25/12/i6). Bioinformatics (2009).
 
+[**Consider to extend it to 3D**](http://www.mathworks.com/matlabcentral/fileexchange/34527-3d-visualization-of-gmm-learning-via-the-em-algorithm)
+
 ### Dependencies
 
 The main script, `gmm_clustering.m`, computes the GMM with different modes using the *gmdistribution* function from MATLAB's statistical toolbox. To interact with the model, the custom user's interface files `gui.fig` and `gui.m` are required.
