@@ -33,7 +33,7 @@ This script performs a clustering analysis using Gaussian Mixture Model (GMM).
 > [Constrained mixture estimation for analysis and robust
 classification of clinical time series](http://bioinformatics.oxfordjournals.org/content/25/12/i6). Bioinformatics (2009).
 
-[**Consider to extend it to 3D**](http://www.mathworks.com/matlabcentral/fileexchange/34527-3d-visualization-of-gmm-learning-via-the-em-algorithm)
+**Note!** Consider to extend it to 3D. See how to  [here](http://www.mathworks.com/matlabcentral/fileexchange/34527-3d-visualization-of-gmm-learning-via-the-em-algorithm)
 
 ### Dependencies
 
