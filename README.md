@@ -42,8 +42,8 @@ The main script, `gmm_clustering.m`, computes the GMM with different modes using
 ### Inputs 
 
 1. Data is read from a table in CSV or Excel file with a header, dscribing the variables names, and the next columns: (*i*) an unique identifier with the samples names, (*ii*) the class name to which each sample belongs, (*iii*) the *X* coordinates and (*iv*) the *Y* coordinates. Find an example in [here](https://github.com/mscastillo/Classification/tree/master/Examples)
-2. `K`, the maximum number of modes. This parameter could be an integer or any of the next strings (that we use a multiple of the actusal number of classes in the dataset): `'one'`, `'two'`, `'three'`, ...`'ten'`. Notice that text strings are defined between single quotes. By default is set to `'two'`.
-3. `seed`, the random generator's seed. For repeatability, the randomness is controlled by fixing the seed of the random generator. By default,it set as zero. Use any other value to generate alternative solutions.
+2. `K`, the maximum number of modes. This parameter could be an integer or any of the next strings: `'one'`, `'two'`, `'three'`, ...`'ten'` that will use a multiple of the actual number of classes in the dataset. Notice that strings are defined between single quotes. By default this parameter is set to `'two'`.
+3. `seed`, the random generator's seed. For repeatability, the randomness is controlled by fixing the seed of the random generator. By default, it is set as zero. Use any other value to generate alternative solutions.
 
 ### Outputs
 
